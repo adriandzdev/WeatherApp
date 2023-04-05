@@ -26,6 +26,7 @@ const getWeather = () => {
         humidity.textContent = hum + '%' 
         weather.textContent = status.main
         warning.textContent = '';
+	input.value = '';
 
         if (status.id >= 200 && status.id <300) {
             photo.setAttribute('src', './img/thunderstorm.png')
