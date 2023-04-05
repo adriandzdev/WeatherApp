@@ -45,7 +45,7 @@ const getWeather = () => {
         } else {
             photo.setAttribute('src', './img/unknown.png')
         }
-	}).catch(() => warning.textContent = 'Wpisz poprawną nazwę miasta!')
+	}).catch(() => warning.textContent = 'Please enter a valid city name!')
 }
 
 const enterCheck = (e) => {
@@ -55,7 +55,7 @@ const enterCheck = (e) => {
 }
 
 
-getWeather()
+
 button.addEventListener('click', getWeather)
 input.addEventListener('keyup', enterCheck)
 
