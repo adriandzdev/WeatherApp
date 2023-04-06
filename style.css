@@ -116,3 +116,38 @@ button:hover {
     font-size: 14px;
     color: tomato;
 }
+
+@media (max-width: 1000px) {
+ .wrapper {
+    font-size: 15px;
+    width: 500px;
+ }
+    
+  }
+
+  @media (max-width: 600px) {
+    .wrapper {
+       font-size: 10px;
+       width: 300px;
+       
+    }
+    .main-info {
+        display: block;
+        text-align: center;
+    }
+    .main-info button {
+        margin: 10px 0px 0px 0px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .photo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .weather-info {
+        font-size: 19px;
+    }
+       
+     }
